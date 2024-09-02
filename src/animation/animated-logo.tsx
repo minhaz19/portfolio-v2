@@ -7,9 +7,8 @@ export default function AnimatedLogo() {
       fill: "rgba(0, 0, 0, 0)",
     },
     visible: {
-      pathLength: 1,
-      // Set fill as per your theme
-      fill: "#156165",
+      pathLength: 2,
+      // fill: "#156165",
     },
   };
 
@@ -21,8 +20,8 @@ export default function AnimatedLogo() {
         className="h-full w-full fill-accent stroke-accent"
       >
         <motion.path
-          d="M321.955 420L179.465 127.143L224.998 36.1755L416.91 420H321.955ZM204.867 263.253L128.055 420H33.0897L158.769 168.608L204.867 263.253Z"
-          strokeWidth="15"
+          d="M50 400 L50 100 L150 250 L250 100 L250 400"
+          strokeWidth="50"
           variants={iconVariant}
           initial="hidden"
           animate="visible"

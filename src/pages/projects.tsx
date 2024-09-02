@@ -8,19 +8,19 @@ export default function Projects() {
   return (
     <>
       <NextSeo
-        title="Projects by Amit Chauhan - React and Frontend Developer Portfolio"
-        description="Explore a collection of projects by Amit Chauhan, a seasoned React and Frontend Developer. From innovative web applications to responsive interfaces, discover the depth and diversity of my work."
+        title="Projects by Minhazul Abedin - React Native and Frontend Developer Portfolio"
+        description="Explore a collection of projects by Minhazul Abedin, a seasoned React Native and Frontend Developer. From innovative web applications to responsive interfaces, discover the depth and diversity of my work."
         canonical={`${siteMetadata.siteUrl}/projects`}
         openGraph={{
           url: `${siteMetadata.siteUrl}/projects`,
           title:
-            "Discover Projects by Amit Chauhan - React and Frontend Developer",
+            "Discover Projects by Minhazul Abedin - React Native and Frontend Developer",
           description:
-            "Explore a showcase of projects crafted by Amit Chauhan, a React and Frontend Developer. Witness the fusion of creativity and technology in web development.",
+            "Explore a showcase of projects crafted by Minhazul Abedin, a React Native and Frontend Developer. Witness the fusion of creativity and technology in web development.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
-              alt: "Amit Chauhan - Portfolio Image",
+              alt: "Minhazul Abedin - Portfolio Image",
             },
           ],
           siteName: siteMetadata.siteName,
@@ -33,7 +33,7 @@ export default function Projects() {
           {
             property: "keywords",
             content:
-              "Projects, Portfolio, React Developer, Frontend Developer, Web Development, JavaScript, HTML, CSS, UI/UX, Web Applications, Responsive Design",
+              "Projects, Portfolio, React Native Developer, Frontend Developer, Web Development, JavaScript, HTML, CSS, UI/UX, Web Applications, Responsive Design",
           },
         ]}
       />

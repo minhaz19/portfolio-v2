@@ -1,125 +1,106 @@
 import { type ProjectCardProps } from "@/components/projects/project-card";
 import { type ProjectShowcaseListItem } from "@/components/projects/project-showcase-list";
-import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
     index: 0,
-    title: "Json Tree",
+    title: "M-lenz",
     href: "/projects",
-    tags: ["Nextjs", "Tailwindcss", "Monaco Editor", "Vercel"],
+    tags: ["React Native", "Redux toolkit", "Tanstack", "Background fetch"],
     image: {
-      LIGHT: "/images/projects/jsontreeLight.webp",
-      DARK: "/images/projects/jsontreeDark.webp",
+      LIGHT: "/images/projects/m-lenz.jpeg",
+      DARK: "/images/projects/m-lenz.jpeg",
     },
   },
   {
     index: 1,
-    title: "Many Games",
+    title: "Woofmeets",
     href: "/projects",
     tags: [
       "Reactjs",
+      "Next js",
       "Tailwindcss",
-      "Scss",
-      "Vite",
       "React-router-dom",
-      "Redux",
+      "Zustand",
+      "Tanstack",
       "Vercel",
     ],
     image: {
-      LIGHT: "/images/projects/manyGamesLight.webp",
-      DARK: "/images/projects/manyGamesDark.webp",
+      LIGHT: "/images/projects/woof.webp",
+      DARK: "/images/projects/woof.webp",
     },
   },
   {
     index: 2,
-    title: "Kanban",
+    title: "Liveness Detection",
     href: "/projects",
-    tags: ["Reactjs", "Vite", "Tailwindcss", "Vercel", "Zustand", "React DND"],
+    tags: ["React Native", "MLkit"],
     image: {
-      LIGHT: "/images/projects/kanbanLight.webp",
-      DARK: "/images/projects/kanbanDark.webp",
+      LIGHT: "/images/projects/live-0.jpeg",
+      DARK: "/images/projects/live-0.jpeg",
     },
   },
 ];
 
 export const PROJECTS_CARD: ProjectCardProps[] = [
   {
-    name: "Json tree",
-    favicon: "/images/projects/logos/jsontree.ico",
-    imageUrl: [
-      "/images/projects/jsontreeLight.webp",
-      "/images/projects/jsontreeDark.webp",
-    ],
+    name: "M-Lenz",
+    favicon: "/images/projects/logos/app_logo.png",
+    imageUrl: ["/images/projects/m-lenz.jpeg"],
     description:
-      "Visualize JSON data format in form of a tree or graph. Application is made using Nextjs, Tailwindcss and Monaco Editor. Design image can be downloaded from this app.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/jsontree",
-    liveWebsiteHref: "https://jsontree.vercel.app",
+      "Lead and Developed this project using React Native under the HawkEyes Digital Monitoring LTD. This is a mobile application for Unilever Market operations employee(CM, MS, DFF, MTCM, WMA) to manage their daily tasks.",
+    // sourceCodeHref: "https://github.com/BUMBAIYA/jsontree",
+    // liveWebsiteHref: "https://jsontree.vercel.app",
   },
   {
-    name: "Kanban app",
+    name: "Nagad Pulse",
     favicon: "/images/projects/logos/kanban.ico",
-    imageUrl: [
-      "/images/projects/kanbanLight.webp",
-      "/images/projects/kanbanDark.webp",
-      "/images/projects/kanbanCardLight.webp",
-    ],
+    imageUrl: ["/images/projects/nagad.webp", "/images/projects/nagad-2.webp"],
     description:
-      "Keep track of projects and tasks in different categories. Drag and drop card from tables. Assign user and priority to task and many more features. This app is made using Reactjs, Typescript, Tailwindcss and React-beautiful-dnd library.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/kanban",
-    liveWebsiteHref: "https://kannban-board.vercel.app",
+      "Worked as a React Native developer on this project and Developed four React Native mobile applications for handling Overall (TM) operations for Nagad under the HawkEyes Digital Monitoring LTD.",
+    // sourceCodeHref: "https://github.com/BUMBAIYA/kanban",
+    liveWebsiteHref:
+      "https://play.google.com/store/apps/details?id=com.nagadapp",
   },
   {
-    name: "Many Games",
-    favicon: "/images/projects/logos/manygames.ico",
+    name: "Woofmeets",
+    favicon: "/images/projects/logos/woofmeet_logo.avif",
     imageUrl: [
-      "/images/projects/manyGamesDark.webp",
-      "/images/projects/manyGamesLight.webp",
-      "/images/projects/manyGames2048.webp",
-      "/images/projects/manyGamesPuzzle.webp",
-      "/images/projects/manyGamesWordle.webp",
+      "/images/projects/woof.webp",
+      "/images/projects/image_original.webp",
+      "/images/projects/image_original (1).webp",
+      "/images/projects/image_original (2).webp",
     ],
     description:
-      "Many short and fun games using Reactjs, Typescript and Tailwindcss with collaboration with other developers",
-    sourceCodeHref: "https://github.com/BUMBAIYA/ManyGames",
-    liveWebsiteHref: "https://manygames.vercel.app",
+      "Woofmeets is a petsmart platform that strives to knit pet monitors, pet sitters, boarders & groomers with pet owners in American cities. Application is made using Nextjs, Tailwindcss and Redux Toolkit.",
+    sourceCodeHref: "https://github.com/minhaz19/PettyPaw",
+    liveWebsiteHref: "https://woofmeets.com/",
   },
   {
-    name: "My portfolio",
-    favicon: "/favicon.ico",
-    imageUrl: [
-      "/images/projects/portfolioDark.webp",
-      "/images/projects/portfolioLight.webp",
-    ],
+    name: "Speech to Text",
+    favicon: "/images/projects/logos/text-to-speech.png",
+    imageUrl: ["/images/projects/speechToText.jpeg"],
     description:
-      "My personal portfolio website made using Nextjs, tailwindcss and framer motion.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/amitchauhan-v2",
-    liveWebsiteHref: siteMetadata.siteUrl,
+      "This project is made using React Native and Google Speech to Text API.",
+    sourceCodeHref: "https://github.com/minhaz19/speech-to-text",
+    // liveWebsiteHref: "https://portal.testapp.io/apps/install/Pe00BXNZ8WVr7",
   },
   {
-    name: "Covid Tracker",
-    favicon: "/images/projects/logos/covidtracker.ico",
-    imageUrl: [
-      "/images/projects/covidTracker.webp",
-      "/images/projects/covidTrackerMap.webp",
-      "/images/projects/covidTrackerTable.webp",
-    ],
+    name: "Liveness Detection App",
+    favicon: "/images/projects/logos/face-scanner.png",
+    imageUrl: ["/images/projects/live-0.jpeg", "/images/projects/live-1.jpeg"],
     description:
-      "Get latest covid related stats in a table where user can filter using country and cases. It also has a map which show every countries data for quick view. It uses an open source api (disease.sh). Made using Reactjs, Javascript and MUI",
-    sourceCodeHref: "https://github.com/BUMBAIYA/CovidTracker",
-    liveWebsiteHref: "https://bumbaiya.github.io/CovidTracker",
+      "Detect face and liveness of the face using React Native, Expo and MLKit.",
+    sourceCodeHref: "https://github.com/minhaz19/eye-blinking-live-detection",
+    liveWebsiteHref: "https://portal.testapp.io/apps/install/Pe00BXNZ8WVr7",
   },
   {
-    name: "Stock predictor",
-    favicon: "/images/projects/logos/stockpredictor.ico",
-    imageUrl: [
-      "/images/projects/stockPredictor.webp",
-      "/images/projects/stockPredictorCandleChart.webp",
-      "/images/projects/stockPredictorCompareChart.webp",
-      "/images/projects/stockPredictorLineChart.webp",
-    ],
+    name: "Audio and Video Conference",
+    favicon: "/images/projects/logos/videoconference.png",
+    imageUrl: ["/images/projects/Section 5.webp"],
     description:
-      "Get prediction of opening and closing price of stocks price. Frontend is made using Reactjs and backend is made using Flask and Machine learning model are trained using Tensorflow",
-    sourceCodeHref: "https://github.com/Rohrschachh/Stock-Market-Predictor",
+      "Audio and Video Conference using React Native and 100ms Live. This project is made using React Native and WebRTC",
+    sourceCodeHref: "https://github.com/minhaz19/audio-video-conference",
+    // liveWebsiteHref: "https://www.elev3n.com/",
   },
 ];

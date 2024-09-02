@@ -17,6 +17,7 @@ export const sendMail = async function (
 
   const transporter = createTransport({
     service: "gmail",
+    secure: true,
     auth: {
       user,
       pass,
