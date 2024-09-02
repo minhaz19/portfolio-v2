@@ -78,6 +78,7 @@ const handler = async (
     const { name, email, subject, message } = body;
 
     const response = await sendMail(name, email, subject, message);
+
     res.status(response.status).send(response);
   } catch (error: any) {
     if (error?.status === 429) {
