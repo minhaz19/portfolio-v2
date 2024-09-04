@@ -54,7 +54,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   },
   {
     name: "Nagad Pulse",
-    favicon: "/images/projects/logos/kanban.ico",
+    favicon: "/images/projects/logos/tmr.webp",
     imageUrl: ["/images/projects/nagad.webp", "/images/projects/nagad-2.webp"],
     description:
       "Worked as a React Native developer on this project and Developed four React Native mobile applications for handling Overall (TM) operations for Nagad under the HawkEyes Digital Monitoring LTD.",
@@ -86,12 +86,12 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     // liveWebsiteHref: "https://portal.testapp.io/apps/install/Pe00BXNZ8WVr7",
   },
   {
-    name: "Liveness Detection App",
+    name: "Live Face Detection App",
     favicon: "/images/projects/logos/face-scanner.png",
     imageUrl: ["/images/projects/live-0.jpeg", "/images/projects/live-1.jpeg"],
     description:
       "Detect face and liveness of the face using React Native, Expo and MLKit.",
-    sourceCodeHref: "https://github.com/minhaz19/eye-blinking-live-detection",
+    sourceCodeHref: "https://github.com/minhaz19/Live-Face-Detection",
     liveWebsiteHref: "https://portal.testapp.io/apps/install/Pe00BXNZ8WVr7",
   },
   {
